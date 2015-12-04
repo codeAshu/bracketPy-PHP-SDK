@@ -380,17 +380,17 @@ class BracketPyAPI {
     * 
     * @param Array $content  
     * e.g.
-      array(
-        array(
-            "category" => "Climate-Change",
-            "data" => "http://www.un.org/climatechange/summit/"
-        ),
-    
-        array(
-            "category" => "None",  (For the ones which have to be classified)
-            "data" => "python is dynamically typed language, it also infer the data type"
-            ),
-        )
+    * array(
+    *   array(
+    *      "category" => "Climate-Change",
+    *      "data" => "http://www.un.org/climatechange/summit/"
+    *  ),
+    *
+    *   array(
+    *      "category" => "None",  (For the ones which have to be classified)
+    *     "data" => "python is dynamically typed language, it also infer the data type"
+    *    ),
+    *   )
     * In this Array of array, training set has category described, and for the ones which have to classified,
     * please mention category as 'None'
     *
